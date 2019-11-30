@@ -15,7 +15,7 @@ import { ReactComponent as Logo } from '../../assets/images/logo-horizontal.svg'
 import { ReactComponent as Close } from '../../assets/images/icon-close.svg';
 import { ReactComponent as Hamburger } from '../../assets/images/icon-menu.svg';
 import { ReactComponent as Cart } from '../../assets/images/icon-cart.svg';
-// import { ReactComponent as Search } from '../../assets/images/icon-search.svg';
+import { ReactComponent as Search } from '../../assets/images/icon-search.svg';
 
 import { clickAction } from "../../actions/actions";
 
@@ -112,6 +112,9 @@ class Header extends Component {
                             </Link>
                             <Link className="main-nav__item" to="/list/diytools">
                                 {t('shared.header.diytools')}
+                            </Link>
+                            <Link className="main-nav__item" to="/list/personal_tailor">
+                                {t('shared.header.personal_tailor')}
                             </Link>
                             <div className="main-nav__actions">
                                 <Link className="main-nav__item" to="/profile">
